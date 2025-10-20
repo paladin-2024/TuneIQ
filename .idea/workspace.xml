@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df527d6-6989-4d98-9f95-071479247190" name="Changes" comment="chore: Update workspace configuration and project settings">
+    <list default="true" id="1df527d6-6989-4d98-9f95-071479247190" name="Changes" comment="feat: Update RecommendationScheme model to include artist name, genres, and attributes">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/music_recommender.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -112,7 +113,7 @@
       <updated>1760982734986</updated>
       <workItem from="1760982736010" duration="719000" />
       <workItem from="1760984308677" duration="897000" />
-      <workItem from="1760985331218" duration="7289000" />
+      <workItem from="1760985331218" duration="8535000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -138,7 +139,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760994841353</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Add migration state configuration for copilot data">
+      <option name="closed" value="true" />
+      <created>1760999959035</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760999959035</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Update RecommendationScheme model to include artist name, genres, and attributes">
+      <option name="closed" value="true" />
+      <created>1761000035619</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761000035619</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +165,9 @@
     <MESSAGE value="update" />
     <MESSAGE value="feat: Add models for music recommendation system" />
     <MESSAGE value="chore: Update workspace configuration and project settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: Update workspace configuration and project settings" />
+    <MESSAGE value="feat: Add migration state configuration for copilot data" />
+    <MESSAGE value="feat: Update RecommendationScheme model to include artist name, genres, and attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Update RecommendationScheme model to include artist name, genres, and attributes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Music_Recomendation_System_Backend$main.coverage" NAME="main Coverage Results" MODIFIED="1760993092152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
