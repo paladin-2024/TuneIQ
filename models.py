@@ -2,8 +2,9 @@ from pydantic import BaseModel
 from dataclasses import dataclass
 
 class RecommendationScheme(BaseModel):
-    name: str
-    count: int
+    artist_name: str
+    genres: list[str]
+    attrs:dict
 
 @dataclass
 class Music :
