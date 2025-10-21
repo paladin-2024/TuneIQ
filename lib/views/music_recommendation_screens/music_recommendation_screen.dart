@@ -1,8 +1,9 @@
+import 'package:chips_choice/chips_choice.dart';
 import 'package:flutter/material.dart';
-
 import '../../constants.dart';
 import '../../models/music.dart';
 import 'widgets/music_list_title.dart';
+import 'music_recommender.dart';
 
 class MusicRecommendationScreen extends StatefulWidget {
   const MusicRecommendationScreen({super.key});
